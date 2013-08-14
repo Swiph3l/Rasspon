@@ -33,10 +33,10 @@ HTML re
 
 What's next?
 -------------------------
-- add fix visual html and css (amendments specified by the customer)
-- validation fix
-- add responsible theme (all)
-- testing responsible:<br>
+- add fix visual html and css (amendments specified by the customer) - 80% done
+- validation fix - 0%
+- add responsible theme (all) - 0%
+- testing responsible:<br> - 0%
  * litmus.com
  * firefox, opera, chrome, ie
  * smartphones
