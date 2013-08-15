@@ -33,9 +33,9 @@ HTML re
 
 What's next?
 -------------------------
-- add fix visual html and css (amendments specified by the customer) - 80% done
+- add fix visual html and css (amendments specified by the customer) - 95% (5% to test) done
+- add responsible theme (all) - 95% (5% to test)
 - validation fix - 0%
-- add responsible theme (all) - 60%
 - testing responsible:<br> - 0%
  * litmus.com
  * firefox, opera, chrome, ie
