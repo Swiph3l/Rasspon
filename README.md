@@ -6,28 +6,28 @@ HTML re
     <th colspan="2">development progress</th>
   </tr>
   <tr>
-    <td>register_1</td><td>http://naderion.eu/my/register_1.html</td><td>50% + 10% respon</td>
+    <td>register_1</td><td>http://naderion.eu/my/register_1.html</td><td>50% + 45% respon</td>
   </tr>
   <tr>
-    <td>register_2</td><td>http://naderion.eu/my/register_2.html</td><td>50% + 10% respon</td>
+    <td>register_2</td><td>http://naderion.eu/my/register_2.html</td><td>50% + 45% respon</td>
   </tr>
   <tr>
-    <td>register_3</td><td>http://naderion.eu/my/register_3.html</td><td>50% + 10% respon</td>
+    <td>register_3</td><td>http://naderion.eu/my/register_3.html</td><td>50% + 45% respon</td>
   </tr>
   <tr>
-    <td>register_4</td><td>http://naderion.eu/my/register_4.html</td><td>50% + 10% respon</td>
+    <td>register_4</td><td>http://naderion.eu/my/register_4.html</td><td>50% + 45% respon</td>
   </tr>
   <tr>
-    <td>register_alt_1</td><td>http://naderion.eu/my/register_alt_1.html</td><td>50% + 10% respon</td>
+    <td>register_alt_1</td><td>http://naderion.eu/my/register_alt_1.html</td><td>50% + 45% respon</td>
   </tr>
   <tr>
-    <td>register_alt_2</td><td>http://naderion.eu/my/register_alt_2.html</td><td>50% + 10% respon</td>
+    <td>register_alt_2</td><td>http://naderion.eu/my/register_alt_2.html</td><td>50% + 45% respon</td>
   </tr>
   <tr>
-    <td>register_alt_3</td><td>http://naderion.eu/my/register_alt_3.html</td><td>50% + 10% respon</td>
+    <td>register_alt_3</td><td>http://naderion.eu/my/register_alt_3.html</td><td>50% + 45% respon</td>
   </tr>
 <tr>
-    <td>register_alt_4</td><td>http://naderion.eu/my/register_alt_4.html</td><td>50% + 10% respon</td>
+    <td>register_alt_4</td><td>http://naderion.eu/my/register_alt_4.html</td><td>50% + 45% respon</td>
   </tr>
 </table>
 
