@@ -26,9 +26,22 @@ HTML re
   <tr>
     <td>register_alt_3</td><td>http://naderion.eu/my/register_alt_3.html</td><td>50% + 45% respon</td>
   </tr>
-<tr>
+  <tr>
     <td>register_alt_4</td><td>http://naderion.eu/my/register_alt_4.html</td><td>50% + 45% respon</td>
   </tr>
+  <tr>
+    <td>register_alt_4</td><td>http://naderion.eu/my/register_9.html</td><td>30% + 45% respon</td>
+  </tr>
+  <tr>
+    <td>register_alt_4</td><td>http://naderion.eu/my/register_10.html</td><td>30% + 45% respon</td>
+  </tr>
+  <tr>
+    <td>register_alt_4</td><td>http://naderion.eu/my/register_11.html</td><td>30% + 45% respon</td>
+  </tr>
+  <tr>
+    <td>register_alt_4</td><td>http://naderion.eu/my/register_12.html</td><td>30% + 45% respon</td>
+  </tr>
+
 </table>
 
 What's next?
