@@ -5,7 +5,61 @@
     <script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <style type="text/css">
-    @media screen {
+.container {
+	display:block!important;
+	max-width:980px!important;
+	margin:0 auto!important; 
+	clear:both!important;
+}
+
+.content {
+	padding:15px;
+	max-width:980px;
+	margin:0 auto;
+	display:block; 
+}
+
+.content table { width: 100%; }
+
+
+.column {
+	width: 305px;
+        height: 400px;
+	float:left;
+        margin: 20px 10px 80px;
+}
+.column tr td { padding: 15px; }
+.column-wrap { 
+	padding:0!important; 
+	margin:0 auto; 
+	max-width:980px!important;
+}
+.column table { width:100%;}
+.social .column {
+	width: 290px;
+	min-width: 290px;
+	float:left;
+}
+
+.clear { display: block; clear: both; }
+
+
+@media only screen and (max-width: 980px) {
+	
+	a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
+
+	div[class="column"] { width: auto!important; float:none!important;}
+	
+	table.social div[class="column"] {
+		width:auto!important;
+	}
+
+}
+.boxs2{
+         background-color: #f2f2f2;
+         height: 400px;
+    }
+      @media screen {
         .tophead {
          margin: 70px auto 0px auto;
         }
@@ -24,51 +78,160 @@
             margin: 20px 18px 30px;
         }
     }
-    @media (max-width: 640px) {
+        @media (max-width: 640px) {
         .imagelogo {
          display: none;
         }
     }
-   </style>
+    .boxs2{
+         background-color: #f2f2f2;
+         height: 600px;
+    }
+    </style>
     <title>Register Email</title>
 </head>
 <body style="background-color: #f2f2f2; width: 100%; max-width: 980px; margin: 0 auto;">
     <div class="tophead" style="text-align: center; width: 100%;">
-        <a href="http://marketfy.com" style="text-decoration: none;font-family: Arial, Calibri, Candara, Segoe, &quot;Segoe UI&quot;, Optima, Arial, sans-serif;color: #404040;font-size: 17px;font-weight: bold;">
-            <img src="http://d36io9znxl3bhq.cloudfront.net/static/images/email/v2/logo.8dbd63b121b5.png" style="max-width: 100%;">
+        <a href="http://marketfy.com" style="text-decoration: none;font-family: Arial, Calibri, Candara, Segoe, Optima, Arial, sans-serif;color: #404040;font-size: 17px;font-weight: bold;">
+            <img src="http://naderion.eu/clientimagehost/logomarketfy.png" style="max-width: 100%;">
         </a>
     </div>
-    <div class="tophead" style="text-align: center; width: 100%; max-width: 375px; margin: 0px auto 40px auto; padding: 0 10px;">    
-        <a href="http://marketfy.com/page/about/" style="float: left;text-decoration: none;font-family: Arial, Calibri, Candara, Segoe, &quot;Segoe UI&quot;, Optima, Arial, sans-serif;color: #404040;font-size: 17px;font-weight: bold;">About</a>
-        <a href="http://marketfy.com/product/webinars/" style="text-align: center;text-decoration: none;font-family: Arial, Calibri, Candara, Segoe, &quot;Segoe UI&quot;, Optima, Arial, sans-serif;color: #404040;font-size: 17px;font-weight: bold;">Free Webinars</a>
-        <a href="http://blog.marketfy.com" style="float: right;text-decoration: none;font-family: Arial, Calibri, Candara, Segoe, &quot;Segoe UI&quot;, Optima, Arial, sans-serif;color: #404040;font-size: 17px;font-weight: bold;">Blogs</a>
-    </div>
+	<div class="tophead" style="text-align: center; width: 100%; max-width: 300px; margin: 0px auto 40px auto; padding: 0 10px;">    
+		<a href="http://marketfy.com/page/about/" style="float: left;text-decoration: none;font-family: Arial, Calibri, Candara, Segoe, Optima, Arial, sans-serif;color: #404040;font-size: 17px;">
+                    About
+                </a>
+		<a href="http://marketfy.com/product/webinars/" style="text-align: center;text-decoration: none;font-family: Arial, Calibri, Candara, Segoe, Optima, Arial, sans-serif;color: #404040;font-size: 17px;">
+                    Free Webinars
+                </a>
+		<a href="http://blog.marketfy.com" style="float: right;text-decoration: none;font-family: Arial, Calibri, Candara, Segoe, Optima, Arial, sans-serif;color: #404040;font-size: 17px;">
+                    Blog
+                </a>
+	</div>
     <div class="bgwhite" style="background-color: #ffffff;width: 100%; margin-bottom: 70px;">
-        <div class="text1" id="headtext" style="font-family: Arial, Calibri, Candara, Segoe, &quot;Segoe UI&quot;, Optima, Arial, sans-serif;color: #404040; font-size: 58px; font-weight: bold;padding-left: 15px;padding-top: 10px;border-top: solid #ffffff;">Welcome to Marketfy
+        <div class="text1" id="headtext" style="font-family: Arial, Calibri, Candara, Segoe, Optima, Arial, sans-serif;color: #404040; font-size: 42px; font-weight: bold;padding-left: 15px;padding-top: 10px;border-top: solid #ffffff;">
+            Welcome to Marketfy
         </div>
-        <div class="text2" style="font-family: Arial, Calibri, Candara, Segoe, &quot;Segoe UI&quot;, Optima, Arial, sans-serif;color: #1f4e79;font-size: 20px;padding-left: 15px;border-bottom: solid #dddddd;padding-bottom: 10px;">
-        Hey,<br><br>
+        <div class="text2" style="font-family: Arial, Calibri, Candara, Segoe, Optima, Arial, sans-serif;color: #1f4e79;font-size: 20px;padding-left: 15px;">
+        <br>
+        Hey [First Name],<br><br>
         Thanks for signing up for Marketfy. We’re here to help you trade and invest better. <br><br>
-        If you’re ready to start maximizing your profits in the market, make sure to take advantage of the free resources we have to offer.<br><br>
-        <strong>Here are a few free webinars that you may enjoy:</strong>
+        If you’re ready to start maximizing your profits in the market, make sure to take advantage of the free resources we have to offer. 
+       <br><br><b> Here are a few free webinars that you may enjoy: </b><br>
         </div>
-        <div style=" font-family: Arial; padding: 20px;">
-            Ready to take the first step to experiencing that success?
-            <a href="http://marketfy.com/product/webinars/">Get started today >></a>
+        <div class="column-wrap">
+            <div class="column">
+                <table align="left">
+                    <tr>
+                        <td>				
+                            <div class="boxs2">
+                                 <div class="texttitle" style="padding: 15px 5px 15px 5px; font-family: Arial, Calibri, Candara, Segoe, Optima, Arial, sans-serif;color: #4a596e;font-size: 20px;text-align: center;font-weight: bold;">
+                                    3 Under the Radar Stocks to Trade Profitably
+                                     <hr style="max-width: 100%; background-color: #1f4e79; color:#1f4e79; border: 0px; height: 2px;">
+                                </div>
+                                <div class="imgtop" style="text-align: center;margin-top: 10px;">
+                                    <img src="http://marketfy.com/image/6595c211ac5782bcb21535c3943e2034/268/155/">
+                                </div>
+                               
+                                <div class="textdesc" style="padding: 0px 15px 0px 15px; font-family: Arial, Calibri, Candara, Segoe, Optima, Arial, sans-serif;color: #4d4d4d;font-size: 18px;text-align: center;margin-top: 10px;">
+                                   Presenter: Sang Lucci <br><br>
+                                   One of the things that makes the analytical trader successful is to focus on lesser known companies…
+                                   <br><br>
+                                   Tuesday, August 16<br>
+                                   at 7:30pm EST
+
+                                </div>
+                                <div class="button1" style="background-color: #4a6785;width: 200px;height: 50px;margin: 0 auto;margin-top: 30px;margin-bottom: 25px;text-align: center;font-size: 18px;color: #ffffff;line-height: 54px;font-family: Arial, Calibri, Candara, Segoe, Optima, Arial, sans-serif;">
+                                    <a href="http://marketfy.com/store/item/on-the-move/" style="padding: 10px 30px 10px 30px;text-decoration: none;color: #ffffff;">
+                                        LEARN MORE
+                                    </a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="column">
+                <table align="left">
+                    <tr>
+                        <td>				
+                            <div class="boxs2">
+                                <div class="texttitle" style="padding: 15px 5px 15px 5px; font-family: Arial, Calibri, Candara, Segoe, Optima, Arial, sans-serif;color: #4a596e;font-size: 20px;text-align: center;font-weight: bold;">
+                                   How You Can Chase Extended Moves
+                                     <hr style="max-width: 100%; background-color: #1f4e79; color:#1f4e79; border: 0px; height: 2px;">
+                                </div>
+                                <div class="imgtop" style="text-align: center;margin-top: 10px;">
+                                    <img src="http://marketfy.com/image/5d4fd284876a9cc877e7d1992d280ec7/268/155/">
+                                </div>
+                                <div class="textdesc" style="padding: 0px 15px 0px 15px; font-family: Arial, Calibri, Candara, Segoe, Optima, Arial, sans-serif;color: #4d4d4d;font-size: 18px;text-align: center;margin-top: 10px;">
+                                   Presenter: Sang Lucci <br><br>
+                                   One of the things that makes the analytical trader successful is to focus on lesser known companies…
+                                   <br><br>
+                                   Wednesday, August 20<br>
+                                   at 7:30pm EST
+                                </div>
+                                <div class="button1" style="background-color: #4a6785;width: 200px;height: 50px;margin: 0 auto;margin-top: 30px;margin-bottom: 25px;text-align: center;font-size: 20px;color: #ffffff;line-height: 54px;font-family: Arial, Calibri, Candara, Segoe, Optima, Arial, sans-serif;">
+                                    <a href="http://marketfy.com/store/item/stock-trader-chat-room/" style="padding: 10px 30px 10px 30px;text-decoration: none;color: #ffffff;">
+                                        LEARN MORE
+                                    </a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>					
+            </div>
+            <div class="column">
+                <table align="left">
+                    <tr>
+                        <td>	
+                            <div class="boxs2">
+                                <div class="texttitle" style="padding: 15px 5px 15px 5px; font-family: Arial, Calibri, Candara, Segoe, Optima, Arial, sans-serif;color: #4a596e;font-size: 20px;text-align: center;font-weight: bold;">
+                                    3 Major Keys to Adjusting Calendars for Income
+                                     <hr style="max-width: 100%; background-color: #1f4e79; color:#1f4e79; border: 0px; height: 2px;">
+                                </div>
+                                <div class="imgtop" style="text-align: center;margin-top: 10px;">
+                                    <img src="http://marketfy.com/image/9e1e65f57cc27f3096f6699828f51183/268/155/">
+                                </div>
+                                <div class="textdesc" style="padding: 0px 15px 0px 15px; font-family: Arial, Calibri, Candara, Segoe, Optima, Arial, sans-serif;color: #4d4d4d;font-size: 18px;text-align: center;margin-top: 10px;">
+                                    Presenter: Sang Lucci <br><br>
+                                   One of the things that makes the analytical trader successful is to focus on lesser known companies…
+                                   <br><br>
+                                   Saturday, July 15<br>
+                                   at 7:30pm EST
+                                    <div class="button1" style="background-color: #4a6785;width: 200px;height: 50px;margin: 0 auto;margin-top: 30px;margin-bottom: 25px;text-align: center;font-size: 20px;color: #ffffff;line-height: 54px;font-family: Arial, Calibri, Candara, Segoe, Optima, Arial, sans-serif;"><a href="http://marketfy.com/store/item/etf-professor/" style="padding: 10px 30px 10px 30px;text-decoration: none;color: #ffffff;">LEARN MORE</a></div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>		
+            <div class="clear"></div>			
+        </div>
+        <div style="clear: both;"></div>
+        <div style="font-family: Arial; padding: 20px; padding-top: 150px;">
+             
+            <div style="font-family: Arial, Calibri, Candara, Segoe, Optima, Arial, sans-serif;color: #1f4e79;font-size: 20px;padding-left: 15px;">
+               Ready to take the first step to experiencing that success?<br><br>
+               <a style="text-decoration: underline; color: #1f4e79;" href="http://marketfy.com/product/webinars/">Get started today >> </a>
+            </div>
         </div>
         <div style="clear: both;"></div>
     </div>
     <div style="clear: both;"></div>
     <div class="imagelogo" style="text-align: center; border-bottom: solid #ffffff; margin: 0 auto; width: 100%;">
-        <div class="text3" style="font-family: Arial, Calibri, Candara, Segoe, &quot;Segoe UI&quot;, Optima, Arial, sans-serif;color: #44546a;font-size: 17px;font-weight: bold;text-align: center;border-top: solid #ffffff;padding-top: 10px;clear: both;">Marketfy & Benzinga Partners</div>
+        <div class="text3" style="font-family: Arial, Calibri, Candara, Segoe, Optima, Arial, sans-serif;color: #44546a;font-size: 15px;font-weight: bold;text-align: center;border-top: solid #ffffff;padding-top: 10px;clear: both;">Marketfy & Benzinga Partners</div>
         <img src="http://d36io9znxl3bhq.cloudfront.net/static/images/email/v2/logo1.4080f71a951e.jpg" />
     </div>
-    <div class="text4" style="text-align: center; width: 100%; margin: 25px auto; display: block; font-family: Arial, Calibri, Candara, Segoe, &quot;Segoe UI&quot;, Optima, Arial, sans-serif; color: #404040; font-size: 10pt; font-weight: bold;padding-top: 10px;padding-bottom: 10px;">24471 West 10 Mile RoadSouthfield, Michigan 48067877.440.9464 | <a href="mailto:support@marketfy.com">Support@Marketfy.com</a>
-        <br>
-        <a href="http://marketfy.com/email/preferences/?email=&hash_code=&utm_medium=email&utm_campaign=register&utm_content=unsubscribe-link">Unsubscribe</a>
+    <div class="text4" style="text-align: center; width: 100%; margin: 25px auto; display: block; font-family: Arial, Calibri, Candara, Segoe, Optima, Arial, sans-serif; color: #404040; font-size: 10pt; font-weight: bold;padding-top: 10px;padding-bottom: 10px;">
+        24471 West 10 Mile Road<br /> 
+        Southfield Michigan 48067<br />
+        877.440.9464 | <a href="mailto:support@marketfy.com">Support@Marketfy.com</a>
+        <br />
+        <a style="text-decoration: underline; color: #000000; font-size: 11pt;" href="http://marketfy.com/email/preferences/?email=&hash_code=&utm_medium=email&utm_campaign=register&utm_content=unsubscribe-link">Unsubscribe</a>
     </div>
-    <div class="footer" style="text-align: center;font-family: Arial, Calibri, Candara, Segoe, &quot;Segoe UI&quot;, Optima, Arial, sans-serif;color: #ffffff;font-size: 7pt;background-color: #6fa1cf;padding: 10px;border-top: solid #ffffff;">This article may include mentions of rumors, chatter, or unconfirmed information. Readers should beware that while unconfirmed information may be correlated with increased volatility in securities, price movements based on unofficial information may change quickly based on increased speculation, clarification, or release of official news. <br><br>
+    <div class="footer" style="text-align: center;font-family: Arial, Calibri, Candara, Segoe, Optima, Arial, sans-serif;color: #ffffff;font-size: 7pt;background-color: #6fa1cf;padding: 10px;border-top: solid #ffffff;">
+        This article may include mentions of rumors, chatter, or unconfirmed information. Readers should beware that while unconfirmed information may be correlated with increased volatility in securities, price movements based on unofficial information may change quickly based on increased speculation, clarification, or release of official news. <br><br>
         Neither Benzinga nor its staff recommend that you buy, sell, or hold any security. We do not offer investment advice, personalized or otherwise. Benzinga recommends that you conduct your own due diligence and consult a certified financial professional for personalized advice about your financial situation.
     </div>
-    <script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-3.newrelic.com","4b9bf3ce27","2584410","MQEGMUUFD0JWVURcDghLIhBZBxVYWFgfWAQVFwUCUkoXWFJBQw8ECwUNCWgQBFxHWlFBBA==",0,25,new Date().getTime(),"","","","",""]);</script></body>
+    <script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-3.newrelic.com","4b9bf3ce27","2584410","MQEGMUUFD0JWVURcDghLIhBZBxVYWFgfWAQVFwUCUkoXWFJBQw8ECwUNCWgQBFxHWlFBBA==",0,25,new Date().getTime(),"","","","",""]);</script>
+</body>
 </html>
