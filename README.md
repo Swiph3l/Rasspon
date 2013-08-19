@@ -30,27 +30,27 @@ HTML re
     <td>register_alt_4</td><td>http://naderion.eu/my/register_alt_4.html</td><td>50% + 45% respon</td>
   </tr>
   <tr>
-    <td>register_9</td><td>http://naderion.eu/my/register_9.html</td><td>30% + 45% respon</td>
+    <td>register_9</td><td>http://naderion.eu/my/register_9.html</td><td>50% + 45% respon</td>
   </tr>
   <tr>
-    <td>register_10</td><td>http://naderion.eu/my/register_10.html</td><td>30% + 45% respon</td>
+    <td>register_10</td><td>http://naderion.eu/my/register_10.html</td><td>50% + 45% respon</td>
   </tr>
   <tr>
-    <td>register_11</td><td>http://naderion.eu/my/register_11.html</td><td>30% + 45% respon</td>
+    <td>register_11</td><td>http://naderion.eu/my/register_11.html</td><td>50% + 45% respon</td>
   </tr>
   <tr>
-    <td>register_12</td><td>http://naderion.eu/my/register_12.html</td><td>30% + 45% respon</td>
+    <td>register_12</td><td>http://naderion.eu/my/register_12.html</td><td>50% + 45% respon</td>
   </tr>
 </table>
 -------------------------
 Change:
 -------------------------
-    * http://d36io9znxl3bhq.cloudfront.net/static/images/email/v2/logo.8dbd63b121b5.png 
+http://d36io9znxl3bhq.cloudfront.net/static/images/email/v2/logo.8dbd63b121b5.png 
 <br>to<br>
  http://naderion.eu/clientimagehost/logomarketfy.png <br>
 add: <br>
-http://naderion.eu/clientimagehost/tradingmarketfy_10.jpg<br>
-http://naderion.eu/clientimagehost/welcometomarketfy_09.jpg<br>
+http://naderion.eu/clientimagehost/tradingmarketfy_10.jpg <br>
+http://naderion.eu/clientimagehost/welcometomarketfy_09.jpg <br>
 -------------------------
 What's next?
 -------------------------
