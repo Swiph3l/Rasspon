@@ -49,7 +49,7 @@ http://d36io9znxl3bhq.cloudfront.net/static/images/email/v2/logo.8dbd63b121b5.pn
 <br>to<br>
  http://naderion.eu/clientimagehost/logomarketfy.png <br>
 add: <br>
-http://naderion.eu/clientimagehost/tradingmarketfy_10.jpg <br>
+http://naderion.eu/clientimagehost/tradingmarketfy_10.jpg 
 http://naderion.eu/clientimagehost/welcometomarketfy_09.jpg <br>
 -------------------------
 What's next?
